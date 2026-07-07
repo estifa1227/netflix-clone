@@ -2,7 +2,10 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
   try {
-    const conn = await mongoose.connect(process.env.MONGO_URI);
+    // Looks for Render's MONGO_URI first. If not found, falls back to local.
+    const dbURI = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/streamflix';
+    
+    const conn = await mongoose.connect(dbURI);
     console.log(`MongoDB Connected: ${conn.connection.host}`);
   } catch (error) {
     console.error(`Error: ${error.message}`);

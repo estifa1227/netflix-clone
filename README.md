@@ -124,37 +124,20 @@ VITE_API_URL=http://localhost:5000/api
 ```
 ---
 
-## 📸 Screenshots
-
 ### Home Page
+![Home](Screenshots/Home.png)
 
-![Home](screenshots/home.png)
+### Browse Movies
+![Browse Movies](Screenshots/browse-movies.png)
 
----
 ### Login
-
-![Login](screenshots/login.png)
-
----
-
-### Register
-
-![Register](screenshots/register.png)
-
----
+![Login](Screenshots/login.png)
 
 ### Movie Details
+![Movie Details](Screenshots/movies-details.png)
 
-![Movie Details](screenshots/movies-details.png)
-
-----
-
-### browse-movies
-
-![Movie Details](screenshots/browse-movies.png)
-
----
-
+### Register
+![Register](Screenshots/register.png)
 
 ## 📌 Future Improvements
 

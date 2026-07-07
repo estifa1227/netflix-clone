@@ -107,26 +107,21 @@ npm run dev
 
 ## 🔑 Environment Variables
 
-### Backend (.env)
+### Backend
 
 ```env
 PORT=5000
-
 MONGO_URI=your_mongodb_connection_string
-
 JWT_SECRET=your_secret_key
-
 TMDB_API_KEY=your_tmdb_api_key
-
 TMDB_BASE_URL=https://api.themoviedb.org/3
 ```
 
-### Frontend (.env)
+### Frontend
 
 ```env
 VITE_API_URL=http://localhost:5000/api
 ```
-
 ---
 
 ## 📸 Screenshots
@@ -152,9 +147,14 @@ VITE_API_URL=http://localhost:5000/api
 
 ![Movie Details](screenshots/movies-details.png)
 
+----
+
 ### browse-movies
 
 ![Movie Details](screenshots/browse-movies.png)
+
+---
+
 
 ## 📌 Future Improvements
 
@@ -168,12 +168,13 @@ VITE_API_URL=http://localhost:5000/api
 
 ---
 
+
 ## 👨‍💻 Author
 
 **Estifanos Defaru**
 
 GitHub: https://github.com/estifa1227
 
-LinkedIn: https://www.linkedin.com/in/estifanos-defaru-784b7136a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BU0B0kVToQGuC8cFIY4wqnQ%3D%3D
+LinkedIn: https://www.linkedin.com/in/estifanos-defaru-784b7136a
 
 
